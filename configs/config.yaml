@@ -1,0 +1,12 @@
+project:
+  name: "california-housing-mlops"
+  random_state: 42
+
+model:
+  n_estimators: 100
+  max_depth: 10
+  test_size: 0.2
+
+mlflow:
+  experiment_name: "california_housing_experiment"
+  tracking_uri: "file:./mlruns"
